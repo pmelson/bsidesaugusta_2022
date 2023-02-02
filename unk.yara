@@ -9,8 +9,11 @@ rule YippHB {
     hash = "0f9c100d68ff5c4e09038acb7046b57f4607f9ef14ff76b2caa57c4ddab74772"
   strings:
     $buildmeta_module = "YippHB.dll" ascii wide  // module name
+    $buildmeta_module_2023 = "bPRwWN.dll" ascii wide // module name 2023-02-01
     $buildmeta_res = "YippHB.Resources.resources" ascii wide  // resource name
+    $buildmeta_res_2023 = "bPRwWN.Resources.resources" ascii wide // resource name 2023-02-01
     $buildmeta_method1 = "JsKJLo" ascii  // method name
+    $buildmeta_method_2023 = "YYhPKa" ascii // method name 2023-02-01
     $buildmeta_customattrib = "PPsxtqiU" wide  // used for assembly custom attribute values: Title, Name, Company, Product
     $function_getprocessbyid = "GetProcessById" ascii
     $function_kill = "Kill" ascii
